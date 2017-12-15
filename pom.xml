@@ -76,7 +76,7 @@
           <compositeName>MDSApp</compositeName>
           <composite>${scac.input}</composite>
           <sarLocation>${basedir}/target/sca_mdsBundle.zip</sarLocation>
-          <serverUrl>${serverUrl}</serverUrl>
+          <serverUrl>${serverUrl}/soa-infra/deployer</serverUrl>
           <user>${user}</user>
           <password>${password}</password>
           <compositeRevision>${composite.revision}</compositeRevision>
