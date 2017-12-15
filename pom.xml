@@ -75,7 +75,7 @@
         <configuration>
           <compositeName>MDSApp</compositeName>
           <composite>${scac.input}</composite>
-          <sarLocation>${basedir}/deploy/mdsBundle.zip</sarLocation>
+          <sarLocation>${basedir}/target/mdsBundle.zip</sarLocation>
           <serverUrl>${serverUrl}</serverUrl>
           <user>${user}</user>
           <password>${password}</password>
