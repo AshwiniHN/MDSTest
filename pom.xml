@@ -44,7 +44,7 @@
                             //
                             //ant task to create zip file
                             //
-                            <zip zipfile="target/mdsBundle.zip" basedir="${basedir}/MDSProj/mds" />
+                            <zip zipfile="target/sca_mdsBundle.zip" basedir="${basedir}/MDSProj/mds" />
                         </target>
                     </configuration>
                 </execution>
@@ -75,7 +75,7 @@
         <configuration>
           <compositeName>MDSApp</compositeName>
           <composite>${scac.input}</composite>
-          <sarLocation>${basedir}/target/mdsBundle.zip</sarLocation>
+          <sarLocation>${basedir}/target/sca_mdsBundle.zip</sarLocation>
           <serverUrl>${serverUrl}</serverUrl>
           <user>${user}</user>
           <password>${password}</password>
