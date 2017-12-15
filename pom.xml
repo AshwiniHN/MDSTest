@@ -13,7 +13,7 @@
         <artifactId>ojdeploy</artifactId>
         <version>12.1.3-0-0</version>
         <configuration>
-          <ojdeploy>${oracleHome}/jdeveloper/jdev/bin/ojdeploy64</ojdeploy>
+          <ojdeploy>${oracleHome}/jdeveloper/jdev/bin/ojdeploy64.exe</ojdeploy>
           <workspace>${basedir}/MDSApp.jws</workspace>
           <profile>mdsBundle</profile>
           <usemaven>true</usemaven>
