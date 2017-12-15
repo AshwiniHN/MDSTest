@@ -15,7 +15,7 @@
         <configuration>
           <ojdeploy>${oracleHome}/jdeveloper/jdev/bin/ojdeploy64.exe</ojdeploy>
           <workspace>${basedir}/MDSApp.jws</workspace>
-          <!--<workspace>${basedir}/MDSProj/MDSProj.jpr</workspace>-->
+          <workspace>${basedir}/MDSProj/MDSProj.jpr</workspace>-->
         <!--  <profile>mdsBundle</profile>
           <usemaven>true</usemaven>
         </configuration>
