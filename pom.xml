@@ -45,6 +45,7 @@
                             //ant task to create zip file
                             //
                             <zip zipfile="target/sca_mdsBundle.zip" basedir="${basedir}/MDSProj/mds" />
+                          <fileset dir="${basedir}/MDSProj/mds/target" includes="*.jar"/>
                         </target>
                     </configuration>
                 </execution>
