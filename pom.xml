@@ -44,7 +44,7 @@
                             //
                             //ant task to create zip file
                             //
-                            <zip zipfile="target/mdsBundle.zip" basedir="${basedir}" />
+                            <zip zipfile="target/mdsBundle.zip" basedir="${basedir}/MDSProj/mds" />
                         </target>
                     </configuration>
                 </execution>
