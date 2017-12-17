@@ -71,7 +71,7 @@
                     <version>1.8.1</version>
                 </dependency>
             </dependencies>
-        </plugin>-->
+        </plugin>
       <plugin>
         <groupId>com.oracle.soa.plugin</groupId>
         <artifactId>oracle-soa-plugin</artifactId>
